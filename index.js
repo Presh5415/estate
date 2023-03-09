@@ -14,3 +14,4 @@ window.addEventListener('click', (e) => {
         sidebar.classList.remove('show');
     }
 });
+

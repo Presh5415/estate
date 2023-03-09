@@ -8,12 +8,12 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg-color);
-    background-image: linear-gradient( to right, rgba(88, 13, 13, 0.5), rgba(26, 25, 25, 0.5), rgba(26, 25, 25, 0.5) ) , url( 'img/landing\ page 2.jpg');
+    background-image: linear-gradient( black 10% , rgba(63, 29, 13, 0.5) 60%,black 30%) , url( 'img/landing\ page 2.jpg') ;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-
+    z-index: 9999;
 }
+ 
 
 /*--====== Global Variables (colors)  I declared global styles for your usage here======--*/
 :root {
@@ -159,8 +159,10 @@ justify-content: center;
 #sidebar.show + .sidebar_toggler span:last-child {
     transform: rotate(-45deg);
 }
- 
 
-.hero { 
+.hero{ 
     color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
